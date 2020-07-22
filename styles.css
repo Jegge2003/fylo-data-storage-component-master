@@ -8,12 +8,14 @@ body {
   background-image: url("./images/bg-desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
+  position: absolute;
   width: 1536px;
   display: flex;
   flex-wrap: nowrap;
 }
 
 .fylocontainer {
+  float: left;
   height: 200px;
   width: 360px;
   background-color: hsl(228, 56%, 26%);
@@ -28,6 +30,7 @@ body {
 }
 
 .rectangle {
+  float: left;
   height: 150px;
   width: 500px;
   background-color: hsl(228, 56%, 26%);
@@ -157,4 +160,868 @@ span {
   position: absolute;
   margin-top: 44px;
   margin-left: 127px;
+}
+
+@media (min-width:1149px) and (max-width: 1387px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -100px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+
+@media (min-width:1090px) and (max-width: 1149px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -150px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:1040px) and (max-width: 1090px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -190px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -190px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:1000px) and (max-width: 1040px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -220px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -220px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:940px) and (max-width: 1000px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -280px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -280px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:925px) and (max-width: 940px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -295px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:879px) and (max-width: 925px) {
+
+  html,
+  body {
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+    position: fixed;
+    background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -150px;
+    margin-left: -300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    float: left;
+    height: 150px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -100px;
+    margin-left: -330px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:630px) and (max-width: 879px) {
+
+  html,
+  body {
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-image: url("./images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    float: left;
+    height: 300px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -350px;
+    margin-left: -220px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 2;
+  }
+
+  .rectangle {
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -20px;
+    margin-left: -220px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 1;
+  }
+
+  #storageused {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 40px;
+    font-weight: 400;
+  }
+
+  .fylo {
+    margin-top: 20px;
+    padding: 40px;
+  }
+
+  .document {
+    padding: 15px;
+    margin-top: 170px;
+    margin-left: -175px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .folder {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .upload {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .progress {
+    margin-top: 120px;
+    margin-left: -260px;
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 430px;
+    height: 25px;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0) inset;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-image:
+      -webkit-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+    border: 3px solid hsl(229, 57%, 11%);
+  }
+
+
+  .whitedot {
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    width: 17px;
+    height: 17px;
+  }
+
+  .min,
+  .max {
+    font-size: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 40px;
+    font-weight: 700;
+  }
+
+  .min {
+    margin-top: -35px;
+    margin-left: -35px;
+  }
+
+  .max {
+    margin-top: -95px;
+    margin-left: 325px;
+  }
+
+  .storage {
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1000;
+    margin-top: 0px;
+    margin-left: 150px;
+    background-color: white;
+  }
+
+  .big {
+    font-size: large;
+  }
+
+  span {
+    border-top: 0px solid white;
+    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width:540px) and (max-width: 630px) {
+
+  html,
+  body {
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-image: url("./images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    float: left;
+    height: 300px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -350px;
+    margin-left: -250px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 2;
+  }
+
+  .rectangle {
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -20px;
+    margin-left: -250px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 1;
+  }
+
+  #storageused {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 40px;
+    font-weight: 400;
+  }
+
+  .fylo {
+    margin-top: 20px;
+    padding: 40px;
+  }
+
+  .document {
+    padding: 15px;
+    margin-top: 170px;
+    margin-left: -175px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .folder {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .upload {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .progress {
+    margin-top: 120px;
+    margin-left: -260px;
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 430px;
+    height: 25px;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0) inset;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-image:
+      -webkit-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+    border: 3px solid hsl(229, 57%, 11%);
+  }
+
+
+  .whitedot {
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    width: 17px;
+    height: 17px;
+  }
+
+  .min,
+  .max {
+    font-size: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 40px;
+    font-weight: 700;
+  }
+
+  .min {
+    margin-top: -35px;
+    margin-left: -35px;
+  }
+
+  .max {
+    margin-top: -95px;
+    margin-left: 325px;
+  }
+
+  .storage {
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1000;
+    margin-top: 0px;
+    margin-left: 150px;
+    background-color: white;
+  }
+
+  .big {
+    font-size: large;
+  }
+
+  span {
+    border-top: 0px solid white;
+    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+
+  html,
+  body {
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-image: url("./images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fylocontainer {
+    float: left;
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 110px 15px 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -270px;
+    margin-left: -170px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 2;
+  }
+
+  .rectangle {
+    float: left;
+    height: 200px;
+    width: 360px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    left: 46%;
+    margin-top: -20px;
+    margin-left: -170px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 1;
+  }
+
+
+  #storageused {
+    margin-top: -25px;
+    font-size: 15px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 40px;
+    font-weight: 100;
+  }
+
+  .fylo {
+    padding: 40px;
+  }
+
+  .document {
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: -175px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .folder {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+  .upload {
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+  }
+
+
+
+  .progress {
+    margin-top: 120px;
+    margin-left: -100px;
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 300px;
+    height: 20px;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0) inset;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-image:
+      -webkit-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+    border: 3px solid hsl(229, 57%, 11%);
+  }
+
+
+  .whitedot {
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 80px;
+    top: 61%;
+    width: 15px;
+    height: 15px;
+  }
+
+  .min,
+  .max {
+    font-size: 14px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 40px;
+    font-weight: 700;
+  }
+
+  .min {
+    margin-top: -35px;
+    margin-left: -35px;
+  }
+
+  .max {
+    margin-top: -95px;
+    margin-left: 200px;
+  }
+
+  .storage {
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1000;
+    margin-top: -30px;
+    margin-left: 60px;
+    background-color: white;
+  }
+
+  .big {
+    font-size: large;
+  }
+
+  span {
+    border-top: 0px solid white;
+    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
